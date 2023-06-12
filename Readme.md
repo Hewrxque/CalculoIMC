@@ -1,3 +1,3 @@
-##Calculadora para I.M.C feita com HTML, CSS e JS.
+Calculadora para I.M.C feita com HTML, CSS e JS.
 
 
