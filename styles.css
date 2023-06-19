@@ -21,17 +21,19 @@
      align-items: center;
      text-align: center;
      justify-content: center;
-     width: 100%;
-     margin: 0 auto;
+     width: 60%;
+     margin: 10% auto;
  }
 
  .content {
      background-color: #297531;
      width: 50%;
-     padding: 10%;
+     padding: 8%;
      border-radius: 5%;
-     margin: 3% auto;
+     margin: 5% auto;
      box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+     justify-content: center;
+     align-items: center;
  }
 
  .container-title {
@@ -39,21 +41,18 @@
      color: #8FFF9B;
      border-bottom: #8FFF9B;
      border-bottom: 2px solid #8FFF9B;
-     width: 100%;
  }
 
  .text {
      color: #ffffff;
      font-style: normal;
      font-weight: 700;
-     font-size: 30px;
-     line-height: 46px;
-     margin-left: 10%;
+     margin-right: 54%;
+    
  }
 
  .button {
-     width: 100%;
-     height: 100%;
+    width: 60%;
      background: #8FFF9B;
      border-radius: 10px;
      font-style: normal;
@@ -66,13 +65,13 @@
  }
 
  .input {
-     width: 100%;
+     width: 80%;
      height: 42px;
      margin-bottom: 10px;
      border-color: #FFFFFF;
      background: #FFFFFF;
      border-radius: 5px;
-     padding: 3px
+     padding: 1px
  }
 
  @media only screen and (max-width: 912px) {
@@ -84,7 +83,7 @@
 
 @media only screen and (max-width: 600px) {
     .content {
-        width: 95%;
+        width: 85%;
         margin: 10% auto;
     }
 }
