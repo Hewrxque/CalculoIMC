@@ -36,11 +36,12 @@
  }
 
  .container-title {
-     font-size: 45px;
+    font-size: 200%;
      color: #8FFF9B;
      border-bottom: #8FFF9B;
      border-bottom: 2px solid #8FFF9B;
      text-align: center;
+     width: 100%;
  }
 
  .text {
