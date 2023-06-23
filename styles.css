@@ -17,13 +17,13 @@
      background-color: #8FFF9B;
      align-items: center;
      justify-content: center;
-     width: 30%;
+     width: 50%;
      margin: 1% auto;
  }
 
  .content {
      background-color: #297531;
-     width: 100%;
+     width: 60%;
      padding: 10%;
      border-radius: 5%;
      margin: 5% auto;
@@ -85,6 +85,6 @@
  @media only screen and (max-width<=700px) {
      .content {
          width: 100%;
-       
+         margin: 5% auto;
      }
  }
