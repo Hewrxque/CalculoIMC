@@ -17,16 +17,16 @@
      background-color: #8FFF9B;
      align-items: center;
      justify-content: center;
-     width: 50%;
+     width: 60%;
      margin: 1% auto;
  }
 
  .content {
      background-color: #297531;
-     width: 60% min-content;
+     width: max-content;
      padding: 10%;
      border-radius: 5%;
-     margin: 5% auto;
+     margin: 2% auto;
      box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
      justify-content: center;
      align-items: center;
