@@ -4,20 +4,20 @@
      margin: 2%;
      box-sizing: content-box;
      font-family: 'Istok Web', sans-serif;
-     align-items: center; 
+     align-items: center;
      justify-content: center;
  }
 
  button:hover,
  button:focus {
-    background-color: #297531;
-    color: #FFFFFF;
+     background-color: #297531;
+     color: #FFFFFF;
  }
 
  .container {
      background-color: #8FFF9B;
      align-items: center;
-    
+
      justify-content: center;
      width: 50%;
      margin: 5% auto;
@@ -47,23 +47,23 @@
      color: #ffffff;
      font-style: normal;
      font-weight: 700;
-    
+
      width: 100%;
      height: 30%;
  }
 
  .button {
-    padding: 2%;
+     padding: 2%;
      background: #8FFF9B;
      border-radius: 10px;
      font-style: normal;
      font-weight: 700;
-     font-size: 40px;
+     font-size: 100%;
      border-color: #8FFF9B;
      color: #297531;
-  
+     width: 60%;
      border-width: 8px;
-     
+
  }
 
  .input {
@@ -77,18 +77,18 @@
      text-align: center;
  }
 
- @media only screen and (max-width<= 912px) {
-    .content {
-        width: 90%;
-        margin: 2% auto;
-    }
-}
+ @media only screen and (max-width<=912px) {
+     .content {
+         width: 90%;
+         margin: 2% auto;
+     }
+ }
 
-@media only screen and (max-width<= 600px) {
-    .content {
-        width: 85%;
-        margin: 2% auto;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-}
+ @media only screen and (max-width<=600px) {
+     .content {
+         width: 85%;
+         margin: 2% auto;
+         margin-left: 10%;
+         margin-right: 10%;
+     }
+ }
