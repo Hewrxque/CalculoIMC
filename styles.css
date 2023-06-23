@@ -1,7 +1,6 @@
  @import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
 
  * {
-     margin: 2%;
      box-sizing: content-box;
      font-family: 'Istok Web', sans-serif;
      align-items: center;
@@ -17,15 +16,14 @@
  .container {
      background-color: #8FFF9B;
      align-items: center;
-
      justify-content: center;
-     width: 50%;
-     margin: 5% auto;
+     width: 30%;
+     margin: 1% auto;
  }
 
  .content {
      background-color: #297531;
-     width: 60%;
+     width: 100%;
      padding: 10%;
      border-radius: 5%;
      margin: 5% auto;
@@ -79,8 +77,8 @@
 
  @media only screen and (max-width<=912px) {
      .content {
-         width: 90%;
-         margin: 2% auto;
+         width: 100%;
+         margin: 5% auto;
      }
  }
 
