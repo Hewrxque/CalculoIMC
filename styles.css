@@ -18,7 +18,7 @@
      align-items: center;
      justify-content: center;
      width: 60%;
-     margin: 1% auto;
+     margin: 2% auto;
  }
 
  .content {
@@ -26,7 +26,7 @@
      width: max-content;
      padding: 10%;
      border-radius: 5%;
-     margin: 2% auto;
+     margin: 5% auto;
      box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
      justify-content: center;
      align-items: center;
@@ -85,6 +85,6 @@
  @media only screen and (max-width<=700px) {
      .content {
          width: 100%;
-         margin: 5% auto;
+         margin: 10% auto;
      }
  }
